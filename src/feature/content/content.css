@@ -1,0 +1,9 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px;
+    margin-left: 208px;
+    padding: 24px;
+    background: rgba(154, 154, 154, 0.1);
+    gap: 16px;
+}

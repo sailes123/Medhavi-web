@@ -1,0 +1,22 @@
+.sidebar {
+    padding: 32px 12px;
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar .upper-part {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.sidebar .upper-part .logo {
+    display: flex;
+    justify-content: center;
+}

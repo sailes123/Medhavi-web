@@ -1,0 +1,85 @@
+.member {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 12px;
+}
+
+.member .left {
+    display: flex;
+    gap: 12px;
+}
+
+.member .left .image {
+    height: 64px;
+    width: 64px;
+}
+
+.member .left .image img {
+    height: 100%;
+    width: 100%;
+}
+
+.member .left .info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.member .left .info .name {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #30323D;
+}
+
+.member .left .info .date {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #9A9A9A;
+    letter-spacing: 0.02em;
+}
+
+.member .left .info .late {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #EA526F;
+}
+
+.member .left .info .ontime {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #37B76C;
+}
+
+.member .right button {
+    width: 121px;
+    height: 44px;
+    padding: 12px 40px;
+    background: #2BB8D6;
+    border-radius: 999px;
+    border: none;
+    color: white;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}

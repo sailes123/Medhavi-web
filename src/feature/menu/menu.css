@@ -1,0 +1,52 @@
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 12px 8px 12px 16px;
+    border-radius: 8px;
+}
+
+.menu:hover{
+    background: #2BB8D6;
+    cursor: pointer;
+}
+
+.menu .menu-icon path{
+    stroke: #30323D;
+}
+
+.menu:hover path{
+    stroke: white;
+}
+
+.menu:hover span{
+    color: white;
+}
+
+.menu .menu-icon {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.menu span {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #30323D;
+}
+
+.menu .notification{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.menu .dropbutton{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: auto;
+}

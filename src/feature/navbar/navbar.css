@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 208px;
+    height: 88px;
+    width: calc(100vw - 208px);
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar .backward {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar .backward p {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #30323D;
+}
+
+.navbar .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}

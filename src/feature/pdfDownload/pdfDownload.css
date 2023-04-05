@@ -1,0 +1,50 @@
+.pdf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px 12px 8px;
+    gap: 16px;
+    background: #FFFFFF;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.01), 1px 1px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.09), 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 348px;
+}
+
+.pdf .pdf-details{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.pdf .pdf-details .power-point{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.pdf .pdf-details .pdf-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 14px;
+    margin: 14px;
+}
+
+.pdf .pdf-details .pdf-desc p{
+    font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0.02em;
+color: #30323D;
+}
+.pdf .pdf-details .pdf-desc span{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #7C81A0;
+}
