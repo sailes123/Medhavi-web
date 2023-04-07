@@ -68,7 +68,7 @@
     color: #37B76C;
 }
 
-.member .right button {
+.member .right .non-grade {
     width: 121px;
     height: 44px;
     padding: 12px 40px;
@@ -82,4 +82,37 @@
     font-size: 14px;
     line-height: 140%;
     letter-spacing: 0.02em;
+}
+
+.member .right .grade {
+    padding: 12px 24px;
+    width: 91px;
+    height: 58px;
+    background: #37B76C;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member .right .grade p {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.member .right .grade span {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }

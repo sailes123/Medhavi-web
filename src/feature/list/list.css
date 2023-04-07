@@ -8,6 +8,10 @@ border-radius: 16px;
 gap: 16px;
 }
 
+.list button:hover{
+cursor: pointer;
+}
+
 .list .top-part{
     display: flex;
     flex-direction: row;
@@ -61,7 +65,7 @@ letter-spacing: 0.02em;
 color: #9A9A9A;
 }
 
-.list input{
+.list .search input{
     border: none;
   outline: none;
   background-color: transparent;

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './member.css';
 
-const Member = ({late,name,date,imageUrl}) => {
-    console.log("hello")
+const Member = ({late,name,date,imageUrl,graded,nobtn,onButtonClick,id}) => {
     let submission = late?"Late submission":"On time";
+    console.log("Id",id)
   return (
     <div className='member'>
         <div className='left'>
@@ -16,9 +16,9 @@ const Member = ({late,name,date,imageUrl}) => {
                 <p className={late?'late':'ontime'}>{submission}</p>
               </div>
         </div>
-        <div className='right'>
-            <button>Grade</button>
-        </div>
+        { !nobtn && <div className='right'>
+          <button className={ !graded ? 'non-grade':'grade'} onClick={()=>onButtonClick(id)}>{ !graded ? 'Grade':<><p>Graded</p><span>08/10</span></>}</button> 
+        </div>}
     </div>
   )
 }

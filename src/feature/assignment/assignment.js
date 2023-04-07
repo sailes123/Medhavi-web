@@ -36,7 +36,7 @@ const Assignment = () => {
         <div className='description'>
             <p>Lorem ipsum dolor sit amet consectetur. Pulvinar auctor sed proin at sem. Diam nisl in morbi id diam felis. Lectus eget sit tristique sit magnis pretium nec. Mus fermentum consequat nisl volutpat viverra ut at. Lorem tristique dolor cursus euismod mus duis. Etiam aliquam ultrices tristique in ipsum congue. Nisl aenean netus lobortis ut amet. Lacus eleifend urna turpis amet mattis lacus. Dui elementum ac vitae quam ullamcorper nunc.</p>
         </div>
-        <PdfDownload/>
+        <PdfDownload desc={"Exolution chapter notes."}/>
     </div>
   )
 }

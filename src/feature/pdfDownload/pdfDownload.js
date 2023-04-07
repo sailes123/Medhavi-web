@@ -2,7 +2,7 @@ import React from 'react';
 import './pdfDownload.css';
 import { ReactComponent as Downloader } from './../../ui-kit/downloadbtn.svg';
 
-const PdfDownload = () => {
+const PdfDownload = ({desc}) => {
   return (
     <div className='pdf'>
         <div className='pdf-details'>
@@ -11,7 +11,7 @@ const PdfDownload = () => {
             </div>
 
             <div className='pdf-desc'>
-                <p>Evolution chapter notes.</p>
+                <p>{desc}</p>
                 <span>32.5 MB</span>
             </div>
         </div>

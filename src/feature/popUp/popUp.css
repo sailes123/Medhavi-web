@@ -1,0 +1,227 @@
+.popUp {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+
+}
+
+.popUp .backcolor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 200;
+}
+
+.popUp .container {
+    width: 1024px;
+    background-color: white;
+    opacity: 1;
+    z-index: 250;
+    border-radius: 16px;
+    margin-top: 25px;
+}
+
+.popUp .container .top-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 16px 18px 32px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.01), 1px 1px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.09), 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.popUp .container .top-title p {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #30323D;
+}
+
+.popUp .container .bottom-part {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.popUp .container .bottom-part .member {
+    padding: 0;
+}
+
+.popUp .container .bottom-part .file-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.popUp .container .bottom-part .sub-title {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: #9A9A9A;
+}
+
+.popUp .container .bottom-part .file-section .pdf-file {
+    display: flex;
+    gap: 24px;
+}
+
+.popUp .container .bottom-part .file-section .pdf-file .pdf {
+    width: 328px;
+}
+
+.popUp .container .bottom-part .comment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.popUp .container .bottom-part .comment-section .desc {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: #30323D;
+}
+
+.popUp .container .bottom-part .grade-obtained {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.popUp .container .bottom-part .grade-obtained .total-grade {
+    display: flex;
+    gap: 16px;
+}
+
+.popUp .container .bottom-part .grade-obtained .total-grade input {
+    padding: 24px;
+    letter-spacing: 0.02em;
+    border: none;
+    border-bottom: 2px solid #30323D;
+    outline: none;
+    height: 68px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #30323D;
+    width: 172px;
+    text-align: center;
+}
+
+.popUp .container .bottom-part .grade-obtained .total-grade input::placeholder {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.popUp .container .bottom-part .grade-obtained .total-grade .total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 68px;
+    background: rgba(154, 154, 154, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.popUp .container .bottom-part .grade-obtained .total-grade .total p {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #30323D;
+}
+
+.popUp .container .bottom-part .extra-comment{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.popUp .container .bottom-part .extra-comment textarea {
+    height: 112px;
+    width: 100%;
+    background: rgba(154, 154, 154, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    border: none;
+    outline: none;
+    font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #30323D;
+resize: none;
+}
+
+.popUp .container .bottom-part .extra-comment textarea::placeholder {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.popUp .container .bottom-part .extra-comment .last-btn{
+    display: flex;
+    margin-left: auto;
+    gap: 24px;
+    align-items: center;
+}
+
+.popUp .container .bottom-part .extra-comment .last-btn p{
+    font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0.02em;
+color: #EA526F;
+}
+
+.popUp .container .bottom-part .extra-comment .last-btn button{
+    height: 44px;
+    padding: 12px 40px;
+    background: #2BB8D6;
+border-radius: 999px;
+border: none;
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 140%;
+color: #FFFFFF;
+}
+
+
